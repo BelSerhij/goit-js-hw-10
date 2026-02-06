@@ -1,0 +1,42 @@
+.main-title-gradient {
+  margin-top: 50px;
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.form {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 500px;
+}
+button {
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+}
+button:hover {
+  background: linear-gradient(90deg, #e52e71, #ff8a00);
+}
+
+legend {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+label {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #333;
+  margin-bottom: 10px; 
+}
+

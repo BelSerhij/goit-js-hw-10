@@ -1,0 +1,59 @@
+
+
+.main-title-gradient {
+  background: linear-gradient(90deg, #4e75ff, #1d3a4d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 24px;
+  font-size: 50px;
+}
+
+#datetime-picker {
+  padding: 10px;
+  border: 2px solid #938be1;
+  border-radius: 4px;
+  font-size: 30px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+#datetime-picker:focus {
+   border-color: #4e75ff;
+   box-shadow: 0 0 5px rgba(78, 117, 255, 0.5);    
+}
+
+button {
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 30px;
+  color: #fff;
+  background-color: #394c93;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.timer {
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.timer .field {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.timer .value {
+  display: block;
+  font-size: 60px;
+  color: #4e75ff;
+}
+
+.timer .label {
+  display: block;
+  font-size: 20px;
+  color: #0f486e;
+}
